@@ -18,7 +18,7 @@
 > https://hub.docker.com/r/blakegt/yafacture-sat-rpa-api
 
 ```bash
-docker run --restart unless-stopped -dp 8004:8004 --name yafacture-sat-rpa-api yafacture-sat-rpa-api:latest
+docker run --restart unless-stopped -dp 8004:8004 --name yafacture-sat-rpa-api blakegt/yafacture-sat-rpa-api:latest
 ```
 
 <br/>
