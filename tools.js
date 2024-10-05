@@ -11,7 +11,6 @@ async function getBrowserPage(url, browser, settings) {
   const page = await browser.newPage();
   const randomNumber = Math.floor(Math.random() * 99) + 1;
   const userAgent = `${settings.userAgent}${randomNumber}`;
-  console.log(userAgent);
   await page.setUserAgent(userAgent);
   await page.setExtraHTTPHeaders({ 'Accept-Language': settings.language });
 

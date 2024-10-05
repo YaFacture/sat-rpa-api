@@ -82,8 +82,7 @@ module.exports = async (args) => {
           console.log('Dar click en botón contraseña...');
           await page.click('#contrasena');
 
-          console.log('Eperando form de contraseña...');
-
+          console.log('Esperando captcha...');
           await page.waitForSelector('#divCaptcha img');
 
           console.log('Escribir rfc...');
@@ -109,6 +108,7 @@ module.exports = async (args) => {
             await page.type('#userCaptcha', captchaText);
           }
         } else if (loginMethod === 'efirma') {
+          
           console.log('Subir archivos cer y key al formulario...');
           await uploadFile(page, '#fileCertificate', filePathCer);
           await uploadFile(page, '#filePrivateKey', filePathKey);

@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="230" src="https://cdn.yafacture.com/media/yafacture.png?1" alt="YaFacture" style="border-radius: 8px"/>
+  <img width="230" src="https://cdn.yafacture.com/media/yafacture.png" alt="YaFacture" style="border-radius: 8px"/>
 </p>
 
 # 📱 SAT RPA - Yafacture
@@ -15,7 +15,7 @@
 
 ## 🐳 Docker
 
-> https://hub.docker.com/r/yafacture/yafacture-sat-rpa
+> https://hub.docker.com/r/blakegt/yafacture-sat-rpa
 
 ```bash
 docker run --restart unless-stopped -dp 8004:8004 --name yafacture-sat-rpa yafacture-sat-rpa:latest
@@ -174,7 +174,8 @@ npm run dev or pnpm dev
 
 ## 🤝 Descargo de responsabilidad
 
-Este proyecto no está afiliado, asociado, autorizado, respaldado ni de ninguna manera conectado oficialmente con el SAT o cualquiera de sus subsidiarias o afiliados. El sitio web oficial del SAT se puede encontrar en sat.gob.mx. "SAT", así como los nombres, marcas, emblemas e imágenes relacionados, son marcas registradas de sus respectivos propietarios. Además, no se garantiza que no seas bloqueado al utilizar este método. SAT no permite bots ni clientes no oficiales en su plataforma, por lo que esto no debe considerarse totalmente seguro.
+Nunca guardamos información sensible en el proyecto y no está afiliado, asociado, autorizado, respaldado ni de ninguna manera conectado oficialmente con el SAT o cualquiera de sus subsidiarias o afiliados. El sitio web oficial del SAT se puede encontrar en sat.gob.mx. "SAT", así como los nombres, marcas, emblemas e imágenes relacionados, son marcas registradas de sus respectivos propietarios. Además, no se garantiza que no seas bloqueado al utilizar este método. SAT no permite bots ni clientes no oficiales en su plataforma, por lo que esto no debe considerarse totalmente seguro.
+
 
 ## 📜 Licencia
 
@@ -187,4 +188,4 @@ Este proyecto está licenciado bajo la Licencia MIT.
 
 ## 👨🏻‍💻 Autor
 
-[Cristian Yosafat Hernández Ruiz - BlakePro - Yafacture](https://github.com/blakepro)
+[Cristian Yosafat Hernández Ruiz - Yafacture](https://github.com/blakepro)
