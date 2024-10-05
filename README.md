@@ -50,7 +50,7 @@ npm run dev or pnpm dev
 
 - `POST` /constancia-situacion-fiscal
  
-    **Obten la constancia de situación fiscal de un emisor**
+    **Obtén la constancia de situación fiscal de un emisor**
 
     <br/>
 
@@ -95,7 +95,7 @@ npm run dev or pnpm dev
 
 - `POST` /opinion-cumplimiento
  
-    **Obten la opinión de cumplimiento y la información contenida**
+    **Obtén la opinión de cumplimiento y la información contenida**
 
     <br/>
 
