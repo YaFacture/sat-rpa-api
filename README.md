@@ -2,9 +2,9 @@
   <img width="230" src="https://cdn.yafacture.com/media/yafacture.png" alt="YaFacture" style="border-radius: 8px"/>
 </p>
 
-# 📱 SAT RPA - Yafacture
+# 📱 SAT RPA API - Yafacture
 
-`sat-rpa` es una proyecto REST API de RPA para obtener diversos documentos PDF del SAT en México, muy fácil de utilizar con Docker.
+`sat-rpa-api` es una proyecto RPA hecho con puppeteer para obtener diversos documentos PDF del SAT para México, siendo muy fácil de utilizar gracias a Docker y ser REST API
 
 ## ✨ Características
 
@@ -15,10 +15,10 @@
 
 ## 🐳 Docker
 
-> https://hub.docker.com/r/blakegt/yafacture-sat-rpa
+> https://hub.docker.com/r/blakegt/yafacture-sat-rpa-api
 
 ```bash
-docker run --restart unless-stopped -dp 8004:8004 --name yafacture-sat-rpa yafacture-sat-rpa:latest
+docker run --restart unless-stopped -dp 8004:8004 --name yafacture-sat-rpa-api yafacture-sat-rpa-api:latest
 ```
 
 <br/>
@@ -28,7 +28,7 @@ docker run --restart unless-stopped -dp 8004:8004 --name yafacture-sat-rpa yafac
 Clonar el repositorio
 
 ```bash
-git clone https://github.com/Yafacture/sat-rpa.git
+git clone https://github.com/Yafacture/sat-rpa-api.git
 ```
 
 Instala las dependencias:
@@ -82,7 +82,7 @@ npm run dev or pnpm dev
     }
     ```
     
-    **Ejemplo de respuesta**:
+    **Ejemplo de respuesta** _tiempo apróximado de respuesta 20 segundos_:
 
     ```json
     {
@@ -127,7 +127,7 @@ npm run dev or pnpm dev
       }
       ```
     
-    **Ejemplo de respuesta**:
+    **Ejemplo de respuesta** _tiempo apróximado de respuesta 20 segundos_:
 
     ```json
     {
@@ -181,11 +181,12 @@ Nunca guardamos información sensible en el proyecto y no está afiliado, asocia
 
 Este proyecto está licenciado bajo la Licencia MIT.
 
-## 🧑🏻‍🤝‍🧑🏻 Créditos
+## 🧑🏻‍🤝‍🧑🏻 Contribución
 
-- **[Rafael Soto](https://github.com/BoxFactura/sat-captcha-ai-model)** • Por la creación de un modelo de reconocimiento de captcha
-- **[@eclipxe13](https://github.com/eclipxe13/)** • Por inspirar a compartir y su gran proyecto phpcfdi.
+- **[Rafael Soto](https://github.com/BoxFactura/sat-captcha-ai-model)** • Por la creación de un modelo para reconocimiento de captcha
+- **[@eclipxe13](https://github.com/eclipxe13/)** • Por inspirar a compartir y tener un gran proyecto llamado phpcfdi.
 
 ## 👨🏻‍💻 Autor
 
-[Cristian Yosafat Hernández Ruiz - Yafacture](https://github.com/blakepro)
+[Cristian Yosafat Hernández Ruiz - BlakePro](https://github.com/blakepro)
+[Yafacture](https://github.com/YaFacture)

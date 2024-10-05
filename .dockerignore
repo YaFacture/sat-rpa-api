@@ -10,3 +10,5 @@ README.md
 .github/
 .husky/
 *.md
+*.cer
+*.key

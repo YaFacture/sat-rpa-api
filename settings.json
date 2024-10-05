@@ -5,7 +5,6 @@
   "intercept": [
     "font",
     "media",
-    "image",
     "stylesheet"
   ],
   "puppeteerArgs": [
