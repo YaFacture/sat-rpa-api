@@ -1,0 +1,12 @@
+node_modules
+yarn - error.log
+Dockerfile
+.dockerignore
+.git
+.gitignore
+*.sh
+README.md
+** /.DS_Store
+.github/
+.husky/
+*.md

@@ -1,0 +1,27 @@
+{
+  "name": "rpa.yafacture.com",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "commit": "sh commit.sh",
+    "lint": "biome format --fix && biome check --max-diagnostics=500"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fastify": "^5.0.0",
+    "onnxruntime-node": "^1.19.2",
+    "pdf-parse": "^1.1.1",
+    "puppeteer": "^23.5.0",
+    "sharp": "^0.33.5"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.3",
+    "@types/node": "^22.7.4",
+    "nodemon": "^3.1.7"
+  }
+}

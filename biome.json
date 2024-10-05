@@ -1,0 +1,30 @@
+{
+  "files": {
+    "ignoreUnknown": false,
+    "ignore": ["*.onnx"]
+  },
+  "formatter": {
+    "enabled": true,
+    "lineWidth": 300,
+    "indentStyle": "space",
+    "indentWidth": 2
+  },
+  "organizeImports": {
+    "enabled": true
+  },
+  "linter": {
+    "enabled": true,
+    "rules": {
+      "recommended": true
+    }
+  },
+  "javascript": {
+    "parser": {
+      "unsafeParameterDecoratorsEnabled": true
+    },
+    "formatter": {
+      "quoteStyle": "single",
+      "jsxQuoteStyle": "single"
+    }
+  }
+}
